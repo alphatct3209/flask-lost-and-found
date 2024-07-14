@@ -3,10 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 
-database = []
-
-
 def start():
+  database = []
   print ("Select a function to begin. \n[1] Report a lost item \n[2] Find a lost item \n[3] Exit")
   lor = input("Function:")
 
