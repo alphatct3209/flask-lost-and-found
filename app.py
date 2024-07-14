@@ -29,5 +29,5 @@ def start():
       start()
 
   if lor == '3':
-    return
+      return
 start()
